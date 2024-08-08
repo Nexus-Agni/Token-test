@@ -14,7 +14,9 @@ contract Token {
     }
 
     function transfer (address to, uint amount) external {
-            
+        require(amount <= balances[msg.sender], "Insuffiecient funds");
+        balances[msg.sender] -= amount;
+        balances[to] += amount;
     }
 
     function balanceOf(address account) external view  returns (uint) {

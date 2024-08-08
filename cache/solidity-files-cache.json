@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/agnibha/Documents/agnibha/Blockchain/TokenProject/contracts/token.sol": {
-      "lastModificationDate": 1722231752534,
-      "contentHash": "c3ec3dd775d8555fe453dc733a2218aa",
+      "lastModificationDate": 1722245774780,
+      "contentHash": "955c1e18dd8f06bfa7b165f833ce0fa1",
       "sourceName": "contracts/token.sol",
       "solcConfig": {
         "version": "0.8.24",
